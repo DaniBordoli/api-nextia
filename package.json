@@ -14,6 +14,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.11",
     "morgan": "^1.10.0",
+    "net-browserify": "^0.2.4",
     "nodemailer": "^6.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,7 +24,7 @@
   },
   "scripts": {
     "start": "nodemon src/index.js",
-    "build": "react-scripts build --stream-http",
+    "build": "react-scripts build --stream-http --net-browserify",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
